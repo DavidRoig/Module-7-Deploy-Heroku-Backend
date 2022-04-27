@@ -46,7 +46,7 @@ export const run = async () => {
   console.log({ memberList });
 
   await insertMemberList(memberList);
-  console.log('Inserted member list');
+  console.log('Inserted member list.');
 
   await disconnect();
 };
